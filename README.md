@@ -12,6 +12,14 @@ The MNCMS dataset contains multiple synchronized EEG, TCD, and fNIRS monitoring 
 
 All patient data were collected in the Neurological Intensive Care Unit (NICU) of Xiangya Hospital, Central South University, while healthy subjects were recruited from community hospitals. Written informed consent was obtained from all participants. The study protocol was approved by the institutional ethics committee and strictly followed the principles of the Declaration of Helsinki.
 
+  # Dataset Description
+
+<div align="center">
+  <img src="https://github.com/csuvis/MNCMS_dataset/blob/main/png/image-20260508165547987.png" width="400"/>
+</div>
+  
+An overview of the MNCMS dataset organization is illustrated in the figure. The MNCMS dataset consists of two main components: participant metadata and non-invasive cerebral monitoring data. The participant metadata are stored in the ***Participant_metadata.xlsx*** file. Each row in this file corresponds to a participant and contains four fields: ***ID***, ***Sex***, ***Diagnosis***, and ***Prognosis***. Non-invasive cerebral monitoring data from 30 healthy subjects are stored in the ***Healthy Subjects*** directory, and data from 60 stroke patients are stored in the ***Stroke Patients*** directory. All monitoring data are provided in Comma Separated Values (CSV) format. Each monitoring session is organized as multivariate time-series data with 21 channels, which can be categorized into four types: ***time***, ***EEG signals***, ***TCD signals***, and ***fNIRS signals***.
+
 # Contributions of the Dataset
 
 The MNCMS dataset has the following key contributions:
@@ -22,10 +30,3 @@ The MNCMS dataset has the following key contributions:
 
 - During the dataset construction process, gender-related factors were taken into consideration, and the gender distribution of participants was carefully controlled. As a result, the dataset can further support studies focusing on gender-based differences and analyses.
 
-  # Dataset Description
-
-<div align="center">
-  <img src="https://github.com/csuvis/MNCMS_dataset/blob/main/png/image-20260508165547987.png" width="400"/>
-</div>
-  
-An overview of the MNCMS dataset organization is illustrated in the figure. The MNCMS dataset consists of two main components: participant metadata and non-invasive cerebral monitoring data. The participant metadata are stored in the ***Participant_metadata.xlsx*** file. Each row in this file corresponds to a participant and contains four fields: ***ID***, ***Sex***, ***Diagnosis***, and ***Prognosis***. Non-invasive cerebral monitoring data from 30 healthy subjects are stored in the ***Healthy Subjects*** directory, and data from 60 stroke patients are stored in the ***Stroke Patients*** directory. All monitoring data are provided in Comma Separated Values (CSV) format. Each monitoring session is organized as multivariate time-series data with 21 channels, which can be categorized into four types: ***time***, ***EEG signals***, ***TCD signals***, and ***fNIRS signals***.

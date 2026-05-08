@@ -24,6 +24,8 @@ The MNCMS dataset has the following key contributions:
 
   # Dataset Description
 
-![image-20260508165547987](https://github.com/csuvis/MNCMS_dataset/blob/main/png/image-20260508165547987.png =300*200)
+<div align="center">
+  <img src="https://github.com/csuvis/MNCMS_dataset/blob/main/png/image-20260508165547987.png" width="400"/>
+</div>
   
-- An overview of the MNCMS dataset organization is illustrated in the figure. The MNCMS dataset consists of two main components: participant metadata and non-invasive cerebral monitoring data. The participant metadata are stored in the ***Participant_metadata.xlsx*** file. Each row in this file corresponds to a participant and contains four fields: ***ID***, ***Sex***, ***Diagnosis***, and ***Prognosis***. Non-invasive cerebral monitoring data from 30 healthy subjects are stored in the ***Healthy Subjects*** directory, and data from 60 stroke patients are stored in the ***Stroke Patients*** directory. All monitoring data are provided in Comma Separated Values (CSV) format. Each monitoring session is organized as multivariate time-series data with 21 channels, which can be categorized into four types: ***time***, ***EEG signals***, ***TCD signals***, and ***fNIRS signals***.
+An overview of the MNCMS dataset organization is illustrated in the figure. The MNCMS dataset consists of two main components: participant metadata and non-invasive cerebral monitoring data. The participant metadata are stored in the ***Participant_metadata.xlsx*** file. Each row in this file corresponds to a participant and contains four fields: ***ID***, ***Sex***, ***Diagnosis***, and ***Prognosis***. Non-invasive cerebral monitoring data from 30 healthy subjects are stored in the ***Healthy Subjects*** directory, and data from 60 stroke patients are stored in the ***Stroke Patients*** directory. All monitoring data are provided in Comma Separated Values (CSV) format. Each monitoring session is organized as multivariate time-series data with 21 channels, which can be categorized into four types: ***time***, ***EEG signals***, ***TCD signals***, and ***fNIRS signals***.
